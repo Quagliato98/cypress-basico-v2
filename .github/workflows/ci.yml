@@ -9,4 +9,4 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        uses: update cypress-io/github-action@v2 to v4.1.0
