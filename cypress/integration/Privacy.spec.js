@@ -5,7 +5,9 @@ describe('Central de Atendimento ao Cliente TAT', function () {
         cy.visit('./src/privacy.html')
     })
 
-    it('verifica o título da aplicação', function () {
-        cy.contains('#title', 'CAC TAT - Política de privacidade')
+    Cypress._.times(3, () => {
+        it('verifica o título da aplicação', function () {
+            cy.contains('#title', 'CAC TAT - Política de privacidade')
+        })
     })
 })
